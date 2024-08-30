@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38a0217dc3ad780479f568ca8bab4ab7, type: 3}
+  m_Name: NPC_1
+  m_EditorClassIdentifier: 
+  actor: {fileID: 7166700348172345033, guid: 4c2d499b77b1c824ab104ba613696a9d, type: 3}
+  speakerSprite: {fileID: 0}
+  sentence: 
+  dialogues:
+  - actorName: 
+    profile: {fileID: -1361345229, guid: a31ed2c62639e6c4aaa6c6bc50d3a4f7, type: 3}
+    sentence:
+      portuguese: "Bem-vindo, aventureiro! Voc\xEA \xE9 novo por aqui, n\xE3o \xE9?  "
+      english: Welcome, adventurer! You're new here, aren't you?
+  - actorName: 
+    profile: {fileID: -1102468386, guid: 567b787b4664b1f438203056f8c6cc95, type: 3}
+    sentence:
+      portuguese: "Explore a cidade ao norte para conseguir equipamentos e miss\xF5es. "
+      english: Explore the Explore the city to the north to get equipment and missions. 
+        to the north to get equipment and missions. Or go into the forests and caves
+        in search of treasure. Don't forget to collect resources.
+  - actorName: 
+    profile: {fileID: -1361345229, guid: a31ed2c62639e6c4aaa6c6bc50d3a4f7, type: 3}
+    sentence:
+      portuguese: "Ou v\xE1 para as florestas e cavernas em busca de tesouros. N\xE3o
+        se esque\xE7a de coletar recursos!"
+      english: Or go into the forests and caves in search of treasure. Don't forget
+        to collect resources!
+  - actorName: 
+    profile: {fileID: -1102468386, guid: 567b787b4664b1f438203056f8c6cc95, type: 3}
+    sentence:
+      portuguese: 'Boa jornada, aventureiro!      '
+      english: 'Happy journey, adventurer! '
