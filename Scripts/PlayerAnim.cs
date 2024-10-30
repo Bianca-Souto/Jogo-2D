@@ -96,7 +96,6 @@ public class PlayerAnim : MonoBehaviour
         if (player.IsCutting())
         {
             anim.SetTrigger("isCutting");
-            player.isPaused = true;
         }
     }
     
@@ -130,23 +129,23 @@ public class PlayerAnim : MonoBehaviour
     }
     #endregion
 
-    public void OnCastingStarted()
+    public void OnCasting()
     {
         anim.SetTrigger("isCasting");
         player.isPaused = true;
     }
 
-    public void OnCastingEnded()
+    public void OffCasting()
     {
-        cast.OnCasting();
+        cast.OnFish();
         player.isPaused = false;
     }
 
-    public void OnHammeringStarted()
+    public void OnHammering()
     {
         anim.SetBool("hammering", true);
     }
-    public void OnHammeringEnded()
+    public void OffHammering()
     {
         anim.SetBool("hammering", false);
     }

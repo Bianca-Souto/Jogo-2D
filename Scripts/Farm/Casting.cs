@@ -25,12 +25,12 @@ public class Casting : MonoBehaviour
         {
             if(detectingPlayer && Input.GetMouseButtonDown(0))
             {
-                playerAnim.OnCastingStarted();
+                playerAnim.OnCasting();
             }
         }
     }
 
-    public void OnCasting()
+    public void OnFish()
     {
         int randomValue = Random.Range(1, 100);
 

@@ -36,7 +36,7 @@ public class House : MonoBehaviour
         {
             //casa iniciada
             isBegining = true;
-            playerAnim.OnHammeringStarted();
+            playerAnim.OnHammering();
             houseSprite.color = startColor;
             player.transform.position = point.position;
             player.isPaused = true;
@@ -50,7 +50,7 @@ public class House : MonoBehaviour
             if(timeCount >= timeAmount)
             {
                 //casa finalizada
-                playerAnim.OnHammeringEnded();
+                playerAnim.OffHammering();
                 houseSprite.color = endColor;
                 player.isPaused = false;
                 houseColl.SetActive(true);
