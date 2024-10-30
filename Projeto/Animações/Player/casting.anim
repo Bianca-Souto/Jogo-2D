@@ -253,7 +253,7 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 5
-    functionName: OnCastingEnded
+    functionName: OffCasting
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
